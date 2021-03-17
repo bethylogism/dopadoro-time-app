@@ -20,7 +20,8 @@ const styles = (size: number) =>
   StyleSheet.create({
     button: {
       borderRadius: size / 2,
-      backgroundColor: 'rgba(0, 0, 0, 0.4)',
+      borderWidth: 2,
+      borderColor: '#fff',
       width: size,
       height: size,
       justifyContent: 'center',
